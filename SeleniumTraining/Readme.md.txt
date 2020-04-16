@@ -50,6 +50,51 @@ Updating 6ffa726..365a389
 Fast-forward
  SeleniumTraining/Readme.md.txt | 23 +++++++++++++++++++++++
  1 file changed, 23 insertions(+)
+E:\Trainings\GitRepoSyncJava>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
 
-E:\Trainings\GitRepoSyncJava>
+        modified:   SeleniumTraining/Readme.md.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+E:\Trainings\GitRepoSyncJava>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+E:\Trainings\GitRepoSyncJava>git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+
+E:\Trainings\GitRepoSyncJava>git add .
+
+E:\Trainings\GitRepoSyncJava>git commit -m "updated file"
+[master 098e905] updated file
+ 1 file changed, 12 insertions(+)
+
+E:\Trainings\GitRepoSyncJava>git push
+Username for 'https://github.com': deepak.chennoria@gmail.com
+Password for 'https://deepak.chennoria@gmail.com@github.com':
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 578 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/DeepakChennoria/SeleniumTraining.git
+   365a389..098e905  master -> master
 
