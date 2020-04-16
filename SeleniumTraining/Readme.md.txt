@@ -38,6 +38,18 @@ Total 4 (delta 0), reused 0 (delta 0)
 To https://github.com/DeepakChennoria/SeleniumTraining.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
+E:\Trainings\GitRepoSyncJava>git pull
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+From https://github.com/DeepakChennoria/SeleniumTraining
+   6ffa726..365a389  master     -> origin/master
+Updating 6ffa726..365a389
+Fast-forward
+ SeleniumTraining/Readme.md.txt | 23 +++++++++++++++++++++++
+ 1 file changed, 23 insertions(+)
 
 E:\Trainings\GitRepoSyncJava>
 
