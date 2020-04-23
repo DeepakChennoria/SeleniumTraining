@@ -20,7 +20,7 @@ public class TestABControl extends base {
 		String a = ap.getABtext();
 		Assert.assertEquals(ap.getABtext(),"A/B Test Control");
 		ap.clickonElementalSelenium();
-		
+		System.out.println("project starts");
 		
 		 
 		
