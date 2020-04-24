@@ -139,4 +139,14 @@ public void mousehoverandclick(By by)
 	ac.moveToElement(waitForElement(by)).click().build().perform();
 	}
 
+public String geturl()
+{
+	return driver.getCurrentUrl();
+	}
+
+public void accessurl(String text)
+{
+	driver.get(text);
+	}
+
 }

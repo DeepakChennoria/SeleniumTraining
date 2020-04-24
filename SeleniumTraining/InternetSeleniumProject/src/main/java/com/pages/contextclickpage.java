@@ -18,9 +18,9 @@ public class contextclickpage {
 	}
 	
 	
-	public void contextMenuIsdisplayed()
+	public boolean contextMenuIsdisplayed()
 	{
-	 welement.IsDisplayed(OR.ContextMenutext);
+	return welement.IsDisplayed(OR.ContextMenu);
 	 
 	}
 	

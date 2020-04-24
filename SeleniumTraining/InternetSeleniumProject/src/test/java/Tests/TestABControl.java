@@ -17,8 +17,7 @@ public class TestABControl extends base {
 		ABpage ap= new ABpage(driver);
 		
 		hp.clickonABtesting();
-		String a = ap.getABtext();
-		Assert.assertEquals(ap.getABtext(),"A/B Test Control");
+		Assert.assertEquals(ap.geturlofABpage(),"http://the-internet.herokuapp.com/abtest" );
 		ap.clickonElementalSelenium();
 		System.out.println("project starts with git");
 		

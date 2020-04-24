@@ -3,7 +3,7 @@ package com.objectrepository;
 import org.openqa.selenium.By;
 
 public class OR {
-
+    
 	public static By homepageTitle=By.xpath("//h1[Text()='Welcome to the-internet']");
 	
 	public static By ABtestinglink =By.linkText("A/B Testing");
@@ -14,11 +14,15 @@ public class OR {
 	
 	public static By Deletebutton=By.xpath("//button[text()='Delete']");
 	
+	public static By verifyAddandRemoveElementText=By.cssSelector("#content h3");
+	
 	public static By ABTestControl=By.cssSelector("#content h3");
+	
 	
 	public static By ElementalSelenium=By.linkText("Elemental Selenium");
 	
 	public static By BasicAuth=By.linkText("Basic Auth");
+	public static By verifyBasicAuth= By.cssSelector("div.example h3");
 	
 	public static By BrokenImages=By.linkText("Broken Images");
 	
@@ -39,7 +43,7 @@ public class OR {
 	 public  static By DigestAuthentication=By.linkText("Digest Authentication");
 	
 	 public  static By DisappearingElements=By.linkText("Disappearing Elements");
-	 public static By DisappearingElementsText=By.xpath("//p[text()='This example demonstrates when elements on a page change by disappearing/reappearing on each page load.']");
+	 public static By DisappearingElementsText=By.cssSelector("div.example");
 	 
 	 public static By HomeDisapperingElements=By.xpath("//a[text()='Home']");
 	 
@@ -52,7 +56,10 @@ public class OR {
 	 public static By DragA=By.xpath("//div[@id='column-a']");
 	 
 	 public static By DropB=By.xpath("//div[@id='column-b']");
-	 
+	 public static By verifytextDraganddrop=By.cssSelector("div.example");
+
+	
+		 
 	 public  static By dropdownlist=By.linkText("Dropdown");
 	 public static By clickondropdownoptions=By.xpath("//select[@id='dropdown']");
 	 
@@ -124,6 +131,6 @@ public class OR {
 	 public static By Typos=By.linkText("Typos");
 	 
 	 public static By WYSIWYGEditor=By.linkText("WYSIWYG Editor");
-	 
+
 	 
 }

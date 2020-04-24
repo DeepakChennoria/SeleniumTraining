@@ -18,11 +18,11 @@ welement = new element(driver);
 	
 }
 
-public void clickondropdownmenu()
+/*public void clickondropdownmenu()
 {
 welement.click(OR.clickondropdownoptions);	
 
-}
+}*/
 public void clickondropdownselectedoption()
 	{
 		welement.mousehoverandclick(OR.selectoption2dropdown);

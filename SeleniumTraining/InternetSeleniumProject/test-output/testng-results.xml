@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14383" started-at="2020-04-23T09:18:10 PDT" finished-at="2020-04-23T09:18:24 PDT">
+  <suite name="Default suite" duration-ms="12452" started-at="2020-04-24T09:37:39 PDT" finished-at="2020-04-24T09:37:52 PDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14383" started-at="2020-04-23T09:18:10 PDT" finished-at="2020-04-23T09:18:24 PDT">
-      <class name="Tests.TestABControl">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Tests.TestABControl@53f65459]" name="launchbrowser" is-config="true" duration-ms="12469" started-at="2020-04-23T09:18:10 PDT" finished-at="2020-04-23T09:18:22 PDT">
+    <test name="Default test" duration-ms="12452" started-at="2020-04-24T09:37:39 PDT" finished-at="2020-04-24T09:37:52 PDT">
+      <class name="Tests.basicAuth">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Tests.basicAuth@4d95d2a2]" name="launchbrowser" is-config="true" duration-ms="10991" started-at="2020-04-24T09:37:39 PDT" finished-at="2020-04-24T09:37:50 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="testdata()[pri:0, instance:Tests.TestABControl@53f65459]" name="testdata" duration-ms="872" started-at="2020-04-23T09:18:22 PDT" finished-at="2020-04-23T09:18:23 PDT">
+        <test-method status="PASS" signature="getbasicAuth()[pri:0, instance:Tests.basicAuth@4d95d2a2]" name="getbasicAuth" duration-ms="1394" started-at="2020-04-24T09:37:50 PDT" finished-at="2020-04-24T09:37:52 PDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testdata -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.TestABControl@53f65459]" name="teardown" is-config="true" duration-ms="962" started-at="2020-04-23T09:18:23 PDT" finished-at="2020-04-23T09:18:24 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Tests.TestABControl -->
+        </test-method> <!-- getbasicAuth -->
+      </class> <!-- Tests.basicAuth -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

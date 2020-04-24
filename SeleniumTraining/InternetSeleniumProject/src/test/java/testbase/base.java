@@ -29,10 +29,10 @@ public void launchbrowser()
 		driver.manage().window().maximize();
 		driver.get("http://the-internet.herokuapp.com/");
 }
-@AfterTest
+/*@AfterTest
 	public void teardown()
 	{
 		driver.quit();
-	}
+	}*/
 	
 }

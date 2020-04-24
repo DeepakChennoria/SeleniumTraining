@@ -1,6 +1,7 @@
 package com.pages;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import com.commonfunctions.element;
 import com.objectrepository.OR;
@@ -34,6 +35,24 @@ public class homePage  {
 	}
 	
 	
+	public homePage clickonBasicAuth()
+	{
+		welement.click(OR.BasicAuth);
+		return this;
+	}
+	
+	public void hiturlforbasicauth(String text)
+	{
+	welement.accessurl(text);
+	}
+	public void clickonCheckboxes()
+	{
+		welement.click(OR.Checkboxes);
+	}
+	public void contextclick()
+	{
+		welement.click(OR.ContextMenu);
+	}
 
 	public void clickonDragandDrop()
 	{
@@ -50,7 +69,10 @@ public class homePage  {
 		welement.click(OR.DynamicContent);
 	}
 	
-	
+	public void disappearingelement()
+	{
+		welement.click(OR.DisappearingElements);
+	}
 	
 	public void verifyPageloaded() {
 		// TODO Auto-generated method stub
