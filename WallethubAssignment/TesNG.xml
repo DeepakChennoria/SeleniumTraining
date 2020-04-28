@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Wallethub Assignment Test Suite">
+	<listeners>
+		<listener class-name="Com.Utils.TestListener" />
+	</listeners>
+	<parameter name="browser" value="chrome" />
+	<!--  <test name="Facebook Status Message Test">
+	<parameter name="url" value="https://www.facebook.com/" />		
+		<classes>
+			<class name="Com.Facebook.Tests.FacebookStatusMessageTests"/>
+		</classes>
+	</test>-->
+	
+	 <test name="Wallethub Write Review Test">	
+	 <parameter name="url" value="http://wallethub.com/profile/test_insurance_company/" />	
+		<classes>
+			<class name="Com.Wallethub.Tests.WallethubWriteReviewTest"/>
+		</classes>
+	</test>
+</suite>

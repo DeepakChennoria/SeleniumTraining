@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Wallethub Assignment Test Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://wallethub.com/profile/test_insurance_company/"/>
+  <listeners>
+    <listener class-name="Com.Utils.TestListener"/>
+  </listeners>
+  <test name="Wallethub Write Review Test(failed)" preserve-order="false">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://wallethub.com/profile/test_insurance_company/"/>
+    <classes>
+      <class name="Com.Wallethub.Tests.WallethubWriteReviewTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchbrowser"/>
+          <include name="wallethubWriteReview_ID002"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
