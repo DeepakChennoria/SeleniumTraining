@@ -19,9 +19,9 @@ public class checkBoxesPage {
 			welement = new element(driver);
 	}
 	
-	public void checkboxIsdisplayed()
+	public boolean Isdisplayedcheckbox()
 	{
-		welement.IsDisplayed(OR.Checkboxes);
+		return welement.IsDisplayed(OR.Checkboxes);
 	}
 	
 	/*public void clickoncheckbox()

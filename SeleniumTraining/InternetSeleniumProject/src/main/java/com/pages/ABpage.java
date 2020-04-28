@@ -17,6 +17,11 @@ public class ABpage {
 		
 	}
 	
+	
+	public String geturlofABpage()
+	{
+		return welement.geturl();
+	}
 	public String getABtext()
 	{
 		return welement.getText(OR.ABTestControl);

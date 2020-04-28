@@ -10,13 +10,31 @@ public class disapperingElementsPage {
 	WebDriver driver;
 	element welement;
 	
-	public void getText()// where to apply assert .assertequals
+	public disapperingElementsPage(WebDriver driver)
 	{
-		welement.getText(OR.DisappearingElementsText);
+		this.driver= driver;
+		welement= new element(driver);
+	}
+	public String getTextDisappearingElements()
+	{
+		return welement.getText(OR.DisappearingElementsText);
 	}
 	
-	public void clickonHome()
+	public void mousehoverandclickonHomebutton()
 	{
-		welement.click(OR.HomeDisapperingElements);
+		welement.mousehoverAndClick(OR.HomeDisapperingElements);
+		
 	}
+	
+	
+	public void navigatetoAboutpage()
+	{
+		welement.navigatebackpage();
+	}
+	
+	public void clickbypressingtabkeyandenteronAbout()
+	{
+		welement.clickbypressingtabandeneterkey(OR.aboutDisappearingElements);
+	}
+	
 }
