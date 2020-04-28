@@ -17,16 +17,17 @@ this.driver= driver;
 welement = new element(driver);
 	
 }
-
 /*public void clickondropdownmenu()
 {
-welement.click(OR.clickondropdownoptions);	
+	welement.click(OR.clickondropdownoptions);}*/
 
-}*/
-public void clickondropdownselectedoption()
-	{
-		welement.mousehoverandclick(OR.selectoption2dropdown);
-	}
+public void clickondropdownoption2()
+{
+welement.dropdown(OR.selectoption1dropdown,"Option 1");
+}
+
+
+
 	
 	
 

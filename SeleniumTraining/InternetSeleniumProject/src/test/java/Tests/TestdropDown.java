@@ -17,8 +17,9 @@ public class TestdropDown extends base{
 	dropdownlistPage dp = new dropdownlistPage(driver);
 	
 	
-	hp.Dropdownlist();
+	hp.Dropdownlistlink();
 	//dp.clickondropdownmenu();
-	dp.clickondropdownselectedoption();
+	dp.clickondropdownoption2();
+	//dp.clickondropdownselectedoption();
 	}
 }

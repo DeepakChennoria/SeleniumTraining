@@ -18,7 +18,7 @@ public class Testcontextclick extends base {
 	
 	hp.contextclick();
 	cp.contextMenuIsdisplayed();
-	cp.RightclickonContextmenuBox();
+	cp.RightclickonContextmenuBox();//doubt couldnot right click
 	
 	}
 

@@ -26,7 +26,7 @@ public class contextclickpage {
 	
 	public void RightclickonContextmenuBox ()
 	{
-		welement.contextclick(OR.Rightclickoncontextmenubox);
+	welement.contextclick1(OR.Rightclickoncontextmenubox);
 	}
 	
 	

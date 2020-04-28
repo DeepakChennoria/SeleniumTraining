@@ -9,6 +9,7 @@ public class basicAuthpage {
  WebDriver driver;
  element welement;
  
+ 
  public basicAuthpage(WebDriver driver)
  {
 	 this.driver= driver;

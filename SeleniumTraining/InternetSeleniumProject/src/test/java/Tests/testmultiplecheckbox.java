@@ -16,11 +16,24 @@ public class testmultiplecheckbox extends base {
 		homePage hp = new homePage(driver);
 		checkBoxesPage cp= new checkBoxesPage(driver);
 		
-   hp.clickonCheckboxes();
+   hp.clickonCheckboxeslink();
   	Assert.assertTrue(cp.Isdisplayedcheckbox());	
-	cp.selectallcheckbox(OR.multiplecheckbox);
+	cp.selectallcheckbox(OR.multiplecheckbox);//it is not accepting the multiple checkbox
 	
 	
 	}
 
 }
+
+
+/*
+ * public void dismissAlert()
+ * {
+ * 
+ * driver.switchTo().Alert();
+ * }
+ * 
+ * 
+ * 
+ * */
+ 

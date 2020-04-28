@@ -15,17 +15,26 @@ public class disapperingElementsPage {
 		this.driver= driver;
 		welement= new element(driver);
 	}
-	public String getText()// where to apply assert .assertequals
+	public String getTextDisappearingElements()
 	{
 		return welement.getText(OR.DisappearingElementsText);
 	}
 	
 	public void mousehoverandclickonHomebutton()
 	{
-		welement.mousehoverandclick(OR.HomeDisapperingElements);
+		welement.mousehoverAndClick(OR.HomeDisapperingElements);
 		
 	}
 	
 	
+	public void navigatetoAboutpage()
+	{
+		welement.navigatebackpage();
+	}
+	
+	public void clickbypressingtabkeyandenteronAbout()
+	{
+		welement.clickbypressingtabandeneterkey(OR.aboutDisappearingElements);
+	}
 	
 }

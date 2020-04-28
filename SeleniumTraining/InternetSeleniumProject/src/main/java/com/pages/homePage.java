@@ -45,7 +45,14 @@ public class homePage  {
 	{
 	welement.accessurl(text);
 	}
-	public void clickonCheckboxes()
+	
+	public void clickonBrokenImageslink()
+	{
+		welement.click(OR.BrokenImages);
+	}
+	
+	
+	public void clickonCheckboxeslink()
 	{
 		welement.click(OR.Checkboxes);
 	}
@@ -54,16 +61,32 @@ public class homePage  {
 		welement.click(OR.ContextMenu);
 	}
 
+	
+	public void clickonDigestAuthentication()
+	{
+		welement.click(OR.DigestAuthentication);
+		
+			}
+	
+	public void hiturlforDigestAuthentication(String text)
+	{
+		welement.accessurl(text);
+	}
 	public void clickonDragandDrop()
 	{
 		welement.click(OR.DragandDrop);
 	}
 	
-	public void Dropdownlist()
+	public void Dropdownlistlink()
 	{
 	welement.click(OR.dropdownlist);	
 	}
 	
+	
+	public void clickonchallengingdom()
+	{
+		welement.click(OR.challengingDOM);
+	}
 	public void dynamicControls()
 	{
 		welement.click(OR.DynamicContent);
@@ -73,6 +96,17 @@ public class homePage  {
 	{
 		welement.click(OR.DisappearingElements);
 	}
+	
+		public void dynamicloading()
+	{
+		welement.click(OR.clickonDynamicLoading);
+	}
+		
+		
+		public void entryadd()
+		{
+			welement.click(OR.entryAD);
+		}
 	
 	public void verifyPageloaded() {
 		// TODO Auto-generated method stub

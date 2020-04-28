@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.TestAddandRemove">
+      <class name="Tests.TestChallengingDOM">
         <methods>
-          <include name="testdata"/>
+          <include name="gettestdataofChallengingDOM"/>
           <include name="launchbrowser"/>
+          <include name="gettestdataofChallengingDOM1"/>
         </methods>
-      </class> <!-- Tests.TestAddandRemove -->
+      </class> <!-- Tests.TestChallengingDOM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -19,8 +19,10 @@ public class TestDisapperingElement extends base {
 		
 		hp.disappearingelement();
 		
-Assert.assertEquals(OR.DisappearingElementsText,"Disappearing Elements");
+Assert.assertEquals(dep.getTextDisappearingElements(),"Disappearing Elements");
 		dep.mousehoverandclickonHomebutton();
+		dep.navigatetoAboutpage();
+		dep.clickbypressingtabkeyandenteronAbout();
 		
 	}
 }

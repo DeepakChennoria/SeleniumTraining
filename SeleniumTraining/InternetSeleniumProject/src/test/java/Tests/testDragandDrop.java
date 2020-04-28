@@ -19,7 +19,7 @@ public class testDragandDrop extends base{
 		DraganddropPage dp = new DraganddropPage(driver);
 		
 		hp.clickonDragandDrop();
-		Assert.assertEquals(OR.verifytextDraganddrop,"Drag and Drop");
+		Assert.assertEquals(dp.getTextDragandDrop(),"Drag and Drop");
 		dp.draganddrop();
 		
 	}

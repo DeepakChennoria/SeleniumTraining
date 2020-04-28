@@ -25,14 +25,23 @@ public class OR {
 	public static By verifyBasicAuth= By.cssSelector("div.example h3");
 	
 	public static By BrokenImages=By.linkText("Broken Images");
+	public static By verifybrokenImages=By.cssSelector("div.example h3");
 	
-	public static By ChallengingDOM= By.linkText("Challenging DOM");
+	public static By BrokenImage1=By.xpath("//img[@src='asdf.jpg']");
 	
+	//public static By ChallengingDOM= By.linkText("Challenging DOM");
+	
+   public static By challengingDOM=By.xpath("//a[text()='Challenging DOM']");
+	public static By firstbuttonChallengingDOM=By.xpath("//a[@class='button']");
+	
+	public static By secondbuttonchallengingDOM=By.xpath("//a[@class='button alert']");
+	
+	public static By thirdbuttonchallengingDOM=By.xpath("button success");
 	public static By Checkboxes=By.linkText("Checkboxes");
 	
 	public static By clickoncheckbox2=By.xpath("(//input[@type='checkbox'])[2]");
 	 
-	public static By multiplecheckbox=By.xpath("//input[@type='checkbox']");
+	public static By multiplecheckbox=By.xpath("//form[@id='checkboxes']");
 	
 	public static By ContextMenu= By.linkText("Context Menu");
 	 
@@ -42,11 +51,13 @@ public class OR {
 	 
 	 public  static By DigestAuthentication=By.linkText("Digest Authentication");
 	
+	 public static By verifyDigestAuthenticationerrormessage=By.xpath("//span[text()=This site can’t be reached]");
 	 public  static By DisappearingElements=By.linkText("Disappearing Elements");
-	 public static By DisappearingElementsText=By.cssSelector("div.example");
+	 public static By DisappearingElementsText=By.cssSelector("div.example h3");
 	 
 	 public static By HomeDisapperingElements=By.xpath("//a[text()='Home']");
 	 
+	 public static By aboutDisappearingElements=By.xpath("//a[text()='About']");
 	 public static By GalleryDisappearingElement=By.xpath("//a[text()='Gallery']");
 	 
 	 
@@ -56,7 +67,7 @@ public class OR {
 	 public static By DragA=By.xpath("//div[@id='column-a']");
 	 
 	 public static By DropB=By.xpath("//div[@id='column-b']");
-	 public static By verifytextDraganddrop=By.cssSelector("div.example");
+	 public static By verifytextDraganddrop=By.cssSelector("div.example h3");
 
 	
 		 
@@ -65,6 +76,7 @@ public class OR {
 	 
 	 public static By selectoption2dropdown=By.xpath("//option[text()='Option 2']");
 	 
+	 public static By selectoption1dropdown=By.xpath("//option[text()='Option 1']");
 	 public static By DynamicContent=By.linkText("Dynamic Content");
 	 
 	 public static By verifydynamicConroltext=By.xpath("//p[text()='This example demonstrates when elements (e.g., checkbox, input field, etc.) are changed asynchronously.']");
@@ -76,8 +88,13 @@ public class OR {
 	 public static By clickondisbalebutton=By.xpath("//button[text()='Disable']");
 	 
 	 
-	 public static By DynamicLoading=By.linkText("Dynamic Loading");
+	 public static By clickonDynamicLoading=By.linkText("Dynamic Loading");
+	 	 
+	 public static By clickonDynamicLoadExample1=By.linkText("Example 1: Element on page that is hidden");
 	 
+	 public static By clickonstartbutton=By.xpath("//button[text()='Start']");
+	 
+	 public static By verifytextofDynamicload=By.cssSelector("#finish h4");
 	 public static By entryAD=By.linkText("Entry Ad");
 	 
 	 public static By ExitIntent=By.linkText("Exit Intent");

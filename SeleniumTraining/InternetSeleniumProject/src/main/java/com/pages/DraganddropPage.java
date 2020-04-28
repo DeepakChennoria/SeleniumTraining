@@ -20,7 +20,7 @@ public class DraganddropPage {
 		
 	}
 	
-	public String getText()
+	public String getTextDragandDrop()
 	{
 		return welement.getText(OR.verifytextDraganddrop);
 	}
