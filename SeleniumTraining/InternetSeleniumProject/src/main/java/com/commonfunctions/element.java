@@ -152,14 +152,17 @@ public String getText(By by)
 	}
 
 
-public void dismissAlert(By by)
+public void dismissAlert()
 {
-	waitForElement(by).click();
-Alert alert = driver.switchTo().alert();
-alert.getText();
-alert.dismiss();
+driver.switchTo().alert().dismiss();
+}
 
-	}
+public void acceptAlert()
+{
+driver.switchTo().alert().accept();
+}
+
+
 
 /*public void mousehoverandclick(By by)
 {                               
@@ -261,14 +264,7 @@ list.size();
 
 	}
 
-	public void dismissAlert(){
-		
-			Alert alert = driver.switchTo().alert();
-			System.out.println(alert.getText());
-			alert.dismiss();
-			System.out.println("Alert is displayed");
-				
-			}
+	
 
 public void contextclick1(By by)
 {

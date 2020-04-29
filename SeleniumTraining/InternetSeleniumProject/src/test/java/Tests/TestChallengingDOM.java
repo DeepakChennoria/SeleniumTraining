@@ -13,7 +13,7 @@ public class TestChallengingDOM extends base {
 	homePage hp;
 	challengingDOM dom;
 	
-	public TestChallengingDOM()
+	private void init()
 	{
 		hp = new homePage(driver);
 		dom= new challengingDOM(driver);
@@ -21,6 +21,7 @@ public class TestChallengingDOM extends base {
 @Test	
 public void gettestdataofChallengingDOM()
 {
+	init();
 hp.clickonchallengingdom();
 dom.clickonfirstbutton();
 dom.clickonsecondbutton();
@@ -31,6 +32,7 @@ dom.clickondeletebuttonchallengingDOM("Iuvaret7");
 @Test
 public void gettestdataofChallengingDOM1()
 {
+	init();
 hp.clickonchallengingdom();
 dom.clickonfirstbutton();
 dom.clickonsecondbutton();
