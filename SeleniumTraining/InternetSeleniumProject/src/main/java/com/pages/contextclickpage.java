@@ -18,7 +18,7 @@ public class contextclickpage {
 	}
 	
 	
-	public boolean contextMenuIsdisplayed()
+	public boolean IsdisplayedcontextMenu()
 	{
 	return welement.IsDisplayed(OR.ContextMenu);
 	 
@@ -29,6 +29,9 @@ public class contextclickpage {
 	welement.contextclick1(OR.Rightclickoncontextmenubox);
 	}
 	
-	
+	public void handleAlertpopup()
+	{
+		welement.acceptAlert();
+	}
 	
 }

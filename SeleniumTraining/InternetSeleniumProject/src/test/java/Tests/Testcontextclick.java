@@ -16,10 +16,11 @@ public class Testcontextclick extends base {
 	contextclickpage cp = new contextclickpage(driver);
 	
 	
-	hp.contextclick();
-	cp.contextMenuIsdisplayed();
+	hp.contextclickbutton();
+	cp.RightclickonContextmenuBox();
+	cp.IsdisplayedcontextMenu();
 	cp.RightclickonContextmenuBox();//doubt couldnot right click
-	
+	cp.handleAlertpopup();
 	}
 
 	

@@ -51,7 +51,7 @@ public class Base {
 		}
 
 		default:
-			TestListener.logger.info("Execution will not start. Please provide browser name in TestNG.xml");
+			//TestListener.logger.info("Execution will not start. Please provide browser name in TestNG.xml");
 
 		}
 

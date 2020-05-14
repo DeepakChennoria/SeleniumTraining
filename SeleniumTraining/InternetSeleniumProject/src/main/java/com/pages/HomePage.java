@@ -57,7 +57,7 @@ public class HomePage  {
 	{
 		welement.click(OR.Checkboxes);
 	}
-	public void contextclick()
+	public void contextclickbutton()
 	{
 		welement.click(OR.ContextMenu);
 	}

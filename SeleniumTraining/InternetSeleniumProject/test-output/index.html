@@ -24,7 +24,11 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
+<<<<<<< HEAD
       <span class="top-banner-font-1">1 suite</span>
+=======
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+>>>>>>> 34ccd1e5f02734f976fca641984d19dd63c8c52e
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,7 +53,11 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+<<<<<<< HEAD
                     <span>C:\Users\Deepak\AppData\Local\Temp\testng-eclipse--860204813\testng-customsuite.xml</span>
+=======
+                    <span>C:\Users\Namrata\AppData\Local\Temp\testng-eclipse-551640080\testng-customsuite.xml</span>
+>>>>>>> 34ccd1e5f02734f976fca641984d19dd63c8c52e
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +99,11 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
+<<<<<<< HEAD
                     <span class="method-stats">1 method,   1 passed</span>
+=======
+                    <span class="method-stats">1 method, 1 failed,   </span>
+>>>>>>> 34ccd1e5f02734f976fca641984d19dd63c8c52e
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,11 +113,19 @@
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
+<<<<<<< HEAD
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.testmultiplecheckbox" hash-for-method="getcheckboxdata">getcheckboxdata</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
+=======
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.Testcontextclick" hash-for-method="getTestconntextclickdata">getTestconntextclickdata</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+>>>>>>> 34ccd1e5f02734f976fca641984d19dd63c8c52e
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -119,15 +139,54 @@
         <div panel-name="suite-Default_suite" class="panel Default_suite">
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
+<<<<<<< HEAD
               <img src="passed.png"/>
               <span class="class-name">Tests.testmultiplecheckbox</span>
+=======
+              <img src="failed.png"/>
+              <span class="class-name">Tests.Testcontextclick</span>
+>>>>>>> 34ccd1e5f02734f976fca641984d19dd63c8c52e
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+<<<<<<< HEAD
                   <a name="getcheckboxdata">
                   </a> <!-- getcheckboxdata -->
                   <span class="method-name">getcheckboxdata</span>
+=======
+                  <a name="getTestconntextclickdata">
+                  </a> <!-- getTestconntextclickdata -->
+                  <span class="method-name">getTestconntextclickdata</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You selected a context menu}
+  (Session info: chrome=81.0.4044.122): You selected a context menu
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;DESKTOP-A0E5A8F&apos;, ip: &apos;192.168.1.83&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\Namrata\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6fe07f4cc1f8bb0174ac6ded6da75622
+*** Element info: {Using=link text, value=Context Menu}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:391)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:233)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at com.commonfunctions.element$1.apply(element.java:53)
+	at com.commonfunctions.element$1.apply(element.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.lambda$checkConditionInLoop$2(FluentWait.java:233)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+</div> <!-- stack-trace -->
+>>>>>>> 34ccd1e5f02734f976fca641984d19dd63c8c52e
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +194,11 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
+<<<<<<< HEAD
             <span class="header-content">C:\Users\Deepak\AppData\Local\Temp\testng-eclipse--860204813\testng-customsuite.xml</span>
+=======
+            <span class="header-content">C:\Users\Namrata\AppData\Local\Temp\testng-eclipse-551640080\testng-customsuite.xml</span>
+>>>>>>> 34ccd1e5f02734f976fca641984d19dd63c8c52e
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +207,11 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
+<<<<<<< HEAD
       &lt;class name=&quot;Tests.testmultiplecheckbox&quot;/&gt;
+=======
+      &lt;class name=&quot;Tests.Testcontextclick&quot;/&gt;
+>>>>>>> 34ccd1e5f02734f976fca641984d19dd63c8c52e
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -186,9 +253,15 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
+<<<<<<< HEAD
 data.setCell(0, 1, 'getcheckboxdata')
 data.setCell(0, 2, 'Tests.testmultiplecheckbox')
 data.setCell(0, 3, 182416);
+=======
+data.setCell(0, 1, 'getTestconntextclickdata')
+data.setCell(0, 2, 'Tests.Testcontextclick')
+data.setCell(0, 3, 215061);
+>>>>>>> 34ccd1e5f02734f976fca641984d19dd63c8c52e
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -219,14 +292,25 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+<<<<<<< HEAD
               <div class="chronological-class-name">Tests.testmultiplecheckbox</div> <!-- chronological-class-name -->
+=======
+              <div class="chronological-class-name">Tests.Testcontextclick</div> <!-- chronological-class-name -->
+>>>>>>> 34ccd1e5f02734f976fca641984d19dd63c8c52e
               <div class="configuration-test before">
                 <span class="method-name">launchbrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+<<<<<<< HEAD
                 <span class="method-name">getcheckboxdata</span>
                 <span class="method-start">12791 ms</span>
+=======
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getTestconntextclickdata</span>
+                <span class="method-start">10890 ms</span>
+>>>>>>> 34ccd1e5f02734f976fca641984d19dd63c8c52e
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

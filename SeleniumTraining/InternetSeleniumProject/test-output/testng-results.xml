@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
@@ -16,6 +17,66 @@
           </reporter-output>
         </test-method> <!-- getcheckboxdata -->
       </class> <!-- Tests.testmultiplecheckbox -->
+=======
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="225997" started-at="2020-04-29T09:22:20 PDT" finished-at="2020-04-29T09:26:06 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="225997" started-at="2020-04-29T09:22:20 PDT" finished-at="2020-04-29T09:26:06 PDT">
+      <class name="Tests.Testcontextclick">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Tests.Testcontextclick@26794848]" name="launchbrowser" is-config="true" duration-ms="10837" started-at="2020-04-29T09:22:20 PDT" finished-at="2020-04-29T09:22:31 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="FAIL" signature="getTestconntextclickdata()[pri:0, instance:Tests.Testcontextclick@26794848]" name="getTestconntextclickdata" duration-ms="215061" started-at="2020-04-29T09:22:31 PDT" finished-at="2020-04-29T09:26:06 PDT">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : You selected a context menu}
+  (Session info: chrome=81.0.4044.122): You selected a context menu
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'DESKTOP-A0E5A8F', ip: '192.168.1.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\Namrata\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6fe07f4cc1f8bb0174ac6ded6da75622
+*** Element info: {Using=link text, value=Context Menu}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You selected a context menu}
+  (Session info: chrome=81.0.4044.122): You selected a context menu
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'DESKTOP-A0E5A8F', ip: '192.168.1.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\Namrata\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6fe07f4cc1f8bb0174ac6ded6da75622
+*** Element info: {Using=link text, value=Context Menu}
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:127)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:391)
+at org.openqa.selenium.By$ByLinkText.findElement(By.java:233)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+at com.commonfunctions.element$1.apply(element.java:53)
+at com.commonfunctions.element$1.apply(element.java:1)
+at org.openqa.selenium.support.ui.FluentWait.lambda$checkConditionInLoop$2(FluentWait.java:233)
+at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582)
+at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestconntextclickdata -->
+      </class> <!-- Tests.Testcontextclick -->
+>>>>>>> 34ccd1e5f02734f976fca641984d19dd63c8c52e
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
