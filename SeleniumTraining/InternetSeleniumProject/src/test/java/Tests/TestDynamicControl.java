@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import com.objectrepository.OR;
 import com.pages.dynamicControlPage;
-import com.pages.homePage;
+import com.pages.HomePage;
 
 import testbase.base;
 
@@ -16,7 +16,7 @@ public class TestDynamicControl extends base
 	@Test
 public void getDynamicControl()
 {
-homePage hp = new homePage(driver);
+HomePage hp = new HomePage(driver);
 dynamicControlPage dcp=new dynamicControlPage(driver);
 
  hp.dynamicControls();

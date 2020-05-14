@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.pages.ABpage;
-import com.pages.homePage;
+import com.pages.HomePage;
 
 import testbase.base;
 
@@ -13,7 +13,7 @@ public class TestABControl extends base {
 	@Test
 	public void testdata()
 	{
-		homePage hp = new homePage(driver);
+		HomePage hp = new HomePage(driver);
 		ABpage ap= new ABpage(driver);
 		
 		hp.clickonABtesting();

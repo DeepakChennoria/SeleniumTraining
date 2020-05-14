@@ -1,5 +1,6 @@
 package com.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -7,13 +8,13 @@ import com.commonfunctions.element;
 import com.objectrepository.OR;
 
 
-public class homePage  {
+public class HomePage  {
 
 	
 	 WebDriver driver;
 	element welement;
 	
-	public homePage(WebDriver driver)
+	public HomePage(WebDriver driver)
 	{
 	this.driver=driver;
 	welement = new element(driver);
@@ -35,7 +36,7 @@ public class homePage  {
 	}
 	
 	
-	public homePage clickonBasicAuth()
+	public HomePage clickonBasicAuth()
 	{
 		welement.click(OR.BasicAuth);
 		return this;
@@ -109,12 +110,14 @@ public class homePage  {
 		}
 	
 	public void verifyPageloaded() {
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stub		
+	}
+	
+	public void clickDynamicContentLink() {
+		welement.click(By.linkText("Dynamic Content"));
 	}
 
-	
-	
+
 	/*public void clickonAddElement()
 	{
 		welement.click(OR.Addelementbutton);

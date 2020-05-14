@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import com.objectrepository.OR;
 import com.pages.disapperingElementsPage;
-import com.pages.homePage;
+import com.pages.HomePage;
 
 import testbase.base;
 
@@ -14,7 +14,7 @@ public class TestDisapperingElement extends base {
 	@Test
 	public void clickonTestDisappearingElement()
 	{
-		homePage hp = new homePage(driver);
+		HomePage hp = new HomePage(driver);
 		disapperingElementsPage dep = new disapperingElementsPage(driver);
 		
 		hp.disappearingelement();

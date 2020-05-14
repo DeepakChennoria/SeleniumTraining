@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import com.objectrepository.OR;
 import com.pages.checkBoxesPage;
-import com.pages.homePage;
+import com.pages.HomePage;
 
 import testbase.base;
 
@@ -13,11 +13,14 @@ public class testmultiplecheckbox extends base {
 	@Test
 	public void getcheckboxdata()
 	{
-		homePage hp = new homePage(driver);
+		HomePage hp = new HomePage(driver);
 		checkBoxesPage cp= new checkBoxesPage(driver);
 		
    hp.clickonCheckboxeslink();
-  	Assert.assertTrue(cp.Isdisplayedcheckbox());	
+   cp.clickoncheckbox2();
+   cp.clickoncheckbox1();
+   cp.clickoncheckbox2();
+  	//Assert.assertTrue(cp.Isdisplayedcheckbox());	
 	cp.selectallcheckbox(OR.multiplecheckbox);//it is not accepting the multiple checkbox
 	
 	

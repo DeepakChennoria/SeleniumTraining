@@ -24,10 +24,14 @@ public class checkBoxesPage {
 		return welement.IsDisplayed(OR.Checkboxes);
 	}
 	
-	/*public void clickoncheckbox()
+	public void clickoncheckbox1()
 	{
-		welement.click(OR.clickoncheckbox2);
-	}*/
+		welement.click(By.xpath("//div[@id='content']//input[1]"));
+	}
+	public void clickoncheckbox2()
+	{
+		welement.click(By.xpath("//div[@id='content']//input[2]"));
+	}
 	
 	public void selectallcheckbox(By multiplecheckbox)
 	{

@@ -14,6 +14,5 @@ public class entryadPage {
 	welement = new element(driver);
  }
  
- public void 
  
 }

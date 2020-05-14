@@ -5,13 +5,13 @@ import org.testng.annotations.Test;
 
 import com.objectrepository.OR;
 import com.pages.dynamicloadPage;
-import com.pages.homePage;
+import com.pages.HomePage;
 
 import testbase.base;
 
 public class TestdynamicLoad extends base{
 
-	homePage hp = new homePage(driver);
+	HomePage hp = new HomePage(driver);
 	dynamicloadPage dlp = new dynamicloadPage(driver);
 	
 	

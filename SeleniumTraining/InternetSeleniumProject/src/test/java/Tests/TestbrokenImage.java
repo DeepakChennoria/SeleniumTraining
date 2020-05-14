@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.pages.brokenPage;
-import com.pages.homePage;
+import com.pages.HomePage;
 
 import testbase.base;
 
@@ -15,7 +15,7 @@ public class TestbrokenImage extends base {
 @Test
 	public void testdata() throws ClientProtocolException, IOException
 	{
-		homePage hp = new homePage(driver);
+		HomePage hp = new HomePage(driver);
 		brokenPage bp= new brokenPage(driver);
 	    
    hp.clickonBrokenImageslink();

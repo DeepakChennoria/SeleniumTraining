@@ -184,7 +184,7 @@ public void mousehoverAndClick(By by)
 
 
 //multiple(checkbox,radiobutton,buttons,links)
-public void selectmultiplecheckbox(By by)
+/*public void selectmultiplecheckbox(By by)
 {
 try {
  List<WebElement> li = waitForElement(by);
@@ -208,7 +208,7 @@ try {
 	// TODO: handle exception
 }	
 }
-
+*/
 
 public void dropdown(By by,String data)
 {
@@ -335,6 +335,39 @@ public boolean IsImageaccessible(By by) throws ClientProtocolException, IOExcept
 	return display;
 } 
 
+public void DragAndDropWithMouseActions(By source, By target) {
+	Actions ac = new Actions(driver);
+	ac.moveToElement(waitForElement(source)).clickAndHold().moveToElement(waitForElement(target)).release().build().perform();
+}
+
+public void draganddropWithOffsets(By by,By byfordrop)
+{
+	try {
+		
+		WebElement drag = waitForElement(by);
+		WebElement drop = waitForElement(byfordrop);
+		int xOffset = drop.getLocation().getX();
+		 
+		 int yOffset =  drop.getLocation().getY();
+		
+		Actions ac= new Actions(driver);
+		
+		ac.dragAndDropBy(drag, xOffset, yOffset).build().perform();
+		System.out.println("drag and drop successful");
+	} catch (Exception e) {
+		System.out.println("drag and drop not successful");
+		// TODO: handle exception
+	}
+}
+
+public void DragAndDropWithKeys(By source, By target) {
+	Actions ac = new Actions(driver);
+	ac.keyDown(Keys.CONTROL).click(waitForElement(source))
+	.moveToElement(waitForElement(target))
+	.click()
+	.keyUp(Keys.CONTROL)
+	.build().perform();
+}
 	
 	
 	

@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import com.objectrepository.OR;
 import com.pages.AddandRemoveElementspage;
-import com.pages.homePage;
+import com.pages.HomePage;
 
 import testbase.base;
 
@@ -14,7 +14,7 @@ public class TestAddandRemove extends base{
 	@Test
 	public void testdata()
 	{
-	homePage hp = new homePage(driver);
+	HomePage hp = new HomePage(driver);
 	AddandRemoveElementspage arep=new AddandRemoveElementspage(driver);
 	
 	hp.clickonaddRemoveElements();

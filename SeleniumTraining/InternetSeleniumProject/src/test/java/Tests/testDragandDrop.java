@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import com.objectrepository.OR;
 import com.pages.DraganddropPage;
-import com.pages.homePage;
+import com.pages.HomePage;
 
 import testbase.base;
 
@@ -15,7 +15,7 @@ public class testDragandDrop extends base{
 	@Test
 	public void getdraganddrop()
 	{
-		homePage hp = new homePage(driver);
+		HomePage hp = new HomePage(driver);
 		DraganddropPage dp = new DraganddropPage(driver);
 		
 		hp.clickonDragandDrop();
